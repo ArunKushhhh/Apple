@@ -13,7 +13,7 @@ const Navbar = () => {
           className="cursor-pointer"
         />
 
-        <div className="flex gap-5 flex-1 justify-center items-center max-sm:hidden">
+        <div className="flex gap-10 flex-1 justify-center items-center max-sm:hidden">
           {navLists.map((nav, i) => (
             <div
               key={i}
